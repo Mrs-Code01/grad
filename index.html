@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graduate Online Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <h2>Daniella</h2>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="menu">
+      <a href="#about">Overview</a>
+      <a href="#specials">Specials</a>
+      <a href="#proficiency">Proficiency</a>
+      <a href="#contact">Contact</a>
+    </ul>
+  </nav>
+  <!----NAV END---->
+  <!----NAV END---->
+  <!----NAV END---->
+  <main>
+    <div class="left">
+      <h1>DANIELLA.<span>O</span></h1>
+      <p>Data Science!</p>
+      <a href="https://drive.google.com/file/d/18jYO8kAho9uouSY_M-R_pltTwNrlnGLx/view?usp=sharing">CV</a>
+      <a href="https://drive.google.com/file/d/1dCMyQEbHRiotSXeIMHKnx0H9EZ2Pfikf/view?usp=sharing">Intro
+        Video</a>
+    </div>
+    <div class="right">
+      <img src="./images/portrait-young-student-with-book-education-day.jpg" alt="">
+    </div>
+  </main>
+  <!---MAIN END----->
+  <!---MAIN END----->
+  <!---MAIN END----->
+  <section id="about">
+    <h2>OVERVIEW</h2>
+    <div class="line"></div>
+    <p>
+      I am a data scientist with 2+ years broad-based experience in building data-intensive applications, overcoming
+      complex agricultural, and scalability issues in diverse industries. Proficient in predictive modelling, data
+      processing and data mining algorithms, as well as scripting languages, including python and java.
+    </p>
+  </section>
+  <!----ABOUT END--->
+  <!----ABOUT END--->
+  <!----ABOUT END--->
+  <section id="specials">
+    <h2>SPECIALS</h2>
+    <div class="line"></div>
+    <div class="specials-container">
+      <div>
+        <h3>Office Held</h3>
+        <p>Course Rep.</p>
+        <p>2 years</p>
+      </div>
+      <div>
+        <h3>Hobby</h3>
+        <p>Music</p>
+        <p>Reading</p>
+      </div>
+      <div>
+        <h3>Job Experience</h3>
+        <p>Data Scientist</p>
+        <p>1 year</p>
+      </div>
+    </div>
+  </section>
+  <!-----SKILLS END---->
+  <!-----SKILLS END---->
+  <!-----SKILLS END---->
+  <section id="proficiency">
+    <h2>PROFICIENCY IN MS OFFICE</h2>
+    <div class="line"></div>
+    <div class="proficiency-container">
+      <div class="excel">
+        <img src="./images/excel.png" alt="">
+        <div class="excel_links">
+          <a href="https://drive.google.com/file/d/1OvMEj_QvavRQHS13HZadKWqzKkSugxas/view?usp=sharing">Project</a>
+        </div>
+      </div>
+      <div class="ppoint">
+        <img src="./images/power point.png" alt="">
+        <div class="ppoint_links">
+          <a href="https://drive.google.com/file/d/1Zb3syuNtrlcxFJdn1MVhaAOgo94i_nZg/view?usp=sharing">Project</a>
+        </div>
+      </div>
+      <div class="word">
+        <img src="./images/word.png" alt="">
+        <div class="word_links">
+          <a href="https://drive.google.com/file/d/1-D3Bu6PgKH78JyC27EYHBB5xxizYB44R/view?usp=sharing">Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---PROFICIENCY--->
+  <!---PROFICIENCY--->
+  <!---PROFICIENCY--->
+  <section id="contact">
+    <h2>CONTACT</h2>
+    <div class="line"></div>
+    <div class="contact-flex">
+      <a href="#">Whatsapp</a>
+      <a href="#">Send me an email</a>
+      <a href="#">Call me</a>
+    </div>
+  </section>
+
+  <section class="socials">
+    <a href="#"><img src="./images/facebook (4).png" alt="facebook_image"></a>
+    <a href="#"><img src="./images/twitter (1).png" alt="twitter_image"></a>
+    <a href="#"><img src="./images/instagram (2).png" alt="instagram_image"></a>
+  </section>
+
+  <footer>
+    <p>Copyright Daniella.O | All rights reserved.</p>
+  </footer>
+
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const menu = document.querySelector('.menu');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      menu.classList.toggle('active');
+    })
+  </script>
+</body>
+
+</html>
