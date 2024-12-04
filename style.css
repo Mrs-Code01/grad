@@ -299,7 +299,7 @@ main .right img {
 /*****PORTFOLIO*****/
 /*****PORTFOLIO*****/
 
-#contact {
+/* #contact {
   width: var(--constant-width);
   margin: 0 auto 140px;
   color: #fff;
@@ -334,12 +334,12 @@ main .right img {
 
 .contact-flex a:hover {
   box-shadow: 0 0 23px 3px rgb(48, 199, 207);
-}
+} */
 
 /*****CONTACT SECTION END****/
 /*****CONTACT SECTION END****/
 /*****CONTACT SECTION END****/
-.socials {
+/* .socials {
   margin-bottom: 100px;
   display: flex;
   justify-content: center;
@@ -361,6 +361,29 @@ main .right img {
 
 .socials img:hover {
   opacity: .5;
+} */
+
+
+#contact {
+  width: var(--constant-width);
+  margin: 0 auto 140px;
+  color: #fff;
+  text-align: center;
+}
+
+#contact p {
+  margin-bottom: 25px;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #000000;
+  background-color: rgb(214, 26, 26);
+  border-radius: 15px;
+  padding: 35px 50px;
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
 footer {
@@ -434,7 +457,7 @@ footer p {
   }
 
   .menu a:hover {
-    background-color: rgb(48, 199, 207);
+    background-color: rgb(88, 48, 34);
     color: #fff;
   }
 
