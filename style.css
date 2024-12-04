@@ -156,7 +156,7 @@ main .left a:hover {
 }
 
 .intro_video_container {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 50%;
   transform: translate(-50%, 0);
