@@ -366,7 +366,7 @@ main .right img {
 
 #contact {
   width: var(--constant-width);
-  margin: 0 auto 140px;
+  margin: 0 auto 60px;
   color: #fff;
   text-align: center;
 }
